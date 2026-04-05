@@ -61,6 +61,8 @@ F1-score: ~0.89
 Confusion Matrix
 Classification Report
 Accuracy & Loss Graphs
-💾 Model Saving
+
+
+Model Saving
 Model saved in .keras format
 Tokenizer saved using pickle
