@@ -10,7 +10,9 @@ The model is trained on the IMDb dataset (50,000 reviews) and achieves ~89% accu
 Analyzing large volumes of customer feedback manually is inefficient.
 This project automates sentiment classification using Natural Language Processing (NLP) and Deep Learning.
 
- Model Architecture
+Model Architecture
+
+
 Input Text
    ↓
 Tokenization
@@ -24,31 +26,43 @@ LSTM (64 units)
 Dense Layer (Sigmoid)
    ↓
 Output (Positive / Negative)
-🛠 Tech Stack
+
+
+
+Tech Stack
+
 Python
 TensorFlow / Keras
 NumPy & Pandas
 Scikit-learn
 Matplotlib / Seaborn
- Dataset
+Dataset
+
+
 IMDb Movie Reviews Dataset
 50,000 labeled reviews
 Balanced dataset (Positive & Negative)
 
  Download: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
- Features
+Features
+
 Text preprocessing (tokenization, padding)
 Vocabulary limitation (top 5000 words)
 LSTM for sequential text learning
+
 Model evaluation using:
+
+
 Accuracy
 Precision
 Recall
 F1-score
 Confusion Matrix
+
 Model saving & loading for deployment
- Results
+
+Results
 Accuracy: ~89%
 Precision: ~0.91
 Recall: ~0.88
@@ -57,10 +71,12 @@ F1-score: ~0.89
 ✔ Good generalization on unseen data
 ✔ Balanced performance across classes
 
- Evaluation Metrics
+Evaluation Metrics
 Confusion Matrix
 Classification Report
 Accuracy & Loss Graphs
+
+
 
 
 Model Saving
